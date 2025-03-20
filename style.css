@@ -1,0 +1,1924 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+header .titulo {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(165, 42, 42);
+  align-content: center;
+  justify-items: center;
+}
+
+header .titulo h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+header .titulo h1 strong {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+header .img-principal {
+  background-image: url(./img/backegraound-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 13rem;
+}
+
+header .img-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .img-principal img {
+  margin-top: 1rem;
+  width: 80rem;
+  height: 12rem;
+}
+
+header .cabeçalho {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(6, 6, 104);
+  width: 100%;
+  height: 35px;
+  align-items: center;
+
+}
+
+.cabeçalho .redes-socias {
+  margin-left: 10rem;
+}
+
+.cabeçalho .redes-socias a {
+  color: aliceblue;
+  padding: 0px 7px;
+  font-size: 20px;
+}
+
+header .header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  justify-items: center;
+  align-items: center;
+  margin-right: 15rem;
+}
+
+header .cabeçalho .header .dropdown h1{
+  display: none;
+}
+
+header .header nav ul li {
+  background-color: rgb(6, 6, 104);
+  width: 110px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header nav ul li :hover {
+  transition: all;
+  background-color: rgb(85, 85, 137);
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+header .header nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* ----------------- final do cabeçalho ------------- */
+
+
+/* ---------------- começo dos cards style -----------*/
+main section .todos-card {
+  display: flex;
+  flex-direction: column;
+}
+main section .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+main section .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 320px;
+  background-color: rgb(6, 6, 104);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-top: 40px;
+  border-radius: 10px;
+  gap: 7px;
+}
+
+main section .card img {
+  width: 180px;
+  height: 230px;
+  background-color: rgb(191, 191, 204);
+}
+
+main section .card h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+main section .card a button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(254, 194, 0);
+  border-radius: 5px;
+  color: rgb(6, 6, 104);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+/* ---------------- botão saiba mais  -----------*/
+main section .botãoSaiba {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main section .botãoSaiba a button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(6, 6, 104);
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+main section .botãoSaiba a button:hover {
+  transition: all;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(9, 9, 175);
+}
+/* ---------------- final do codigo do botão -----------*/
+/* ---------------- final do cards -----------*/
+
+/* ---------------- falando sobre o jornal -----------*/
+main section .sborejornal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6rem;
+  background-color: rgb(6, 6, 104);
+  width: 100%;
+  padding: 20px 0px;
+}
+
+main section .sborejornal .textosobrejornal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main section .sborejornal .textosobrejornal h1{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+main section .sborejornal .textosobrejornal h2{
+  margin-top: 7px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(255, 196, 0);
+}
+
+main section .sborejornal .conteudosobrejornal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+main section .sborejornal .conteudosobrejornal img {
+  width: 380px;
+  height: 410px;
+  background-color: #eaeaea;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main section .sborejornal .conteudosobrejornal p{
+  width: 45rem;
+  font-size: 14.9px;
+  background-color: #eaeaea;
+  border-radius: 0px 10px 10px 0px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* ---------------- final falando sobre o jornal -----------*/
+
+section .SeçãoDeBenefícios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  gap: 3rem;
+}
+
+section .SeçãoDeBenefícios .elementos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+section .SeçãoDeBenefícios .elementos i{
+  font-size: 9rem;
+  color: #797979;
+}
+
+section .SeçãoDeBenefícios .elementos h1{
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  
+}
+
+section .SeçãoDeBenefícios .elementos p {
+  width: 20rem;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+section .SeçãoDeBenefícios .linhavertical {
+  width: 2px;
+  height: 250px;
+  background-color: #797979;
+  display: block;
+}
+
+/*--------------- inicio sobre a igreja -----*/
+
+main section .testosobreaigreja{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+
+}
+
+main section .testosobreaigreja h1{
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+main section .testosobreaigreja h2{
+  margin-top: 7px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+main section .sobreAIgraja {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+main section .sobreAIgraja .imagem{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem ;
+}
+
+main section .sobreAIgraja .imagem .img_apostolo img{
+  width: 280px;
+  height: 290px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main section .sobreAIgraja .imagem .logodaigreja img{
+  width: 280px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 0px 0px 10px 10px;
+}
+
+main section .sobreAIgraja .textos{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+main section .sobreAIgraja .textos h1 {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+
+main section .sobreAIgraja .textos p{
+  margin-top: 10px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-justify: unset;
+  width: 500px;
+  height: 100px;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/*--------------- final sobre a igreja -----*/
+
+
+
+/* ----------------inicio da 3 parte ----------*/
+
+/* ---------------inico titulo ----------*/
+main section .textoprodução{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+main section .textoprodução h1{
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+main section .textoprodução h2{
+    margin-top: 7px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* ---------------Final do titulo ----------*/
+
+
+main section .produção{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 0px 1rem 0px;
+  gap: 1rem;
+ 
+}
+
+/* ------------ inidio coreção do codigo ---------- */
+main section .CORRIGIDO{
+  margin-top: 3rem;
+}
+/* ------------ final coreção do codigo ---------- */
+
+main section .produção .produçãoO_primeiro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+  height: 80px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 10px;
+  gap: 14px;
+}
+
+main section .produção .produçãoO_primeiro .foto img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+
+}
+
+main section .produção .produçãoO_primeiro .produçãoEnomes{
+  display: flex;
+  flex-direction: column;
+}
+
+main section .produção .produçãoO_primeiro .produçãoEnomes h1{
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+main section .produção .produçãoO_primeiro .produçãoEnomes h2{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/* ----------------final da 3 parte ----------*/
+
+
+/*-------------- inicio do formuulario ---------*/
+
+main section .titulocontato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  background-color: rgb(6, 6, 104);
+  padding: 15px 0px;
+  width: 100%;
+  height: 5rem;
+}
+
+main section .titulocontato h1{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+main section .titulocontato h2{
+    margin-top: 7px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(255, 196, 0);
+}
+
+main section .formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(6, 6, 104);
+  padding: 25px;
+  
+}
+
+main section .formulario form{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+main section .formulario form input{
+  font-family: sans-serif;
+  padding: 17px;
+  outline: none;
+  border: 0;
+  margin-bottom: 15px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+main section .formulario form input:focus{
+    border-radius: 16px;
+}
+
+main section .formulario form label{
+  color: rgb(245, 245, 245);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+main section .formulario form textarea{
+  font-family: sans-serif;
+  padding: 17px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+main section .formulario form textarea:focus{
+  border-radius: 16px;
+}
+
+main section .formulario form .butãoenviar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main section .formulario form .butãoenviar button{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+/*-------------- final do formuulario ---------*/
+
+/*-------------- inico da ultima parte ----------*/
+footer .footer-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  gap: 7rem;
+  margin-top: 2rem;
+}
+
+footer .footer-section .footer-sobrenos, .footer-Contato{
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer .footer-section .footer-sobrenos h1, .footer-Contato h1, .footer-linkrapido h1{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-section .footer-sobrenos p{
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #002698;
+  font-size: 15px;
+
+}
+
+footer .footer-section .footer-linkrapido a{
+  text-decoration: none;
+}
+
+footer .footer-section .footer-linkrapido h3{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #002698;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+footer .footer-section .footer-Contato p{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #002698;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+footer .linha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1px;
+  width: 100%;
+  background-color: #070707;
+  margin-bottom: 20px;
+}
+
+footer .footer-direitos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+
+footer .footer-direitos h1{
+  font-size: 18px;
+}
+
+
+
+
+
+/*------------- parte responsiva do site 1280 --------------*/
+
+@media (max-width:1280px) {
+
+  header .titulo {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(165, 42, 42);
+    align-content: center;
+    justify-items: center;
+  }
+  
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 27px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 27px;
+  }
+
+  header .img-principal img {
+    margin-top: 1rem;
+    width: 78rem;
+    height: 12rem;
+  }
+
+  .cabeçalho .redes-socias {
+    margin-left: 7rem;
+  }
+
+  header .header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-items: center;
+    align-items: center;
+    margin-right: 10rem;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+
+}
+
+
+/*------------- parte responsiva do site 884 --------------*/
+
+@media (max-width: 884px) {
+
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 20px;
+  }
+
+  header .img-principal {
+    background-image: url(./img/backegraound-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+  }
+
+  header .img-principal img {
+    margin-top: 1rem;
+    width: 50rem;
+    height: 8rem;
+  }
+
+
+  .cabeçalho .redes-socias {
+    margin-left: 2rem;
+  }
+
+  header .header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    margin-right: 2rem;
+  }
+
+  main section .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  main section .sborejornal .conteudosobrejornal p{
+    width: 25rem;
+    font-size: 12px;
+    background-color: #eaeaea;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  section .SeçãoDeBenefícios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    gap: 2rem;
+  }
+
+  section .SeçãoDeBenefícios .elementos i{
+    font-size: 6rem;
+    color: #797979;
+  }
+
+  section .SeçãoDeBenefícios .elementos h1{
+    color: #797979;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  section .SeçãoDeBenefícios .elementos p{
+    width: 15rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+
+}
+
+/*------------- parte responsiva do site 800 --------------*/
+
+@media (max-width: 800px) {
+  
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 19px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 19px;
+  }
+
+  header .img-principal img {
+    margin-top: 1rem;
+    width: 48rem;
+    height: 8rem;
+  }
+
+  .cabeçalho .redes-socias {
+    margin-left: 1rem;
+  }
+
+  header .header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  main section .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  main section .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 175px;
+    height: 320px;
+    background-color: rgb(6, 6, 104);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    gap: 7px;
+  }
+  
+  main section .card img {
+    width: 155px;
+    height: 230px;
+    background-color: rgb(191, 191, 204);
+  }
+
+  main section .sborejornal .conteudosobrejornal p{
+    width: 22rem;
+    font-size: 11px;
+    background-color: #eaeaea;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  section .SeçãoDeBenefícios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    gap: 2rem;
+  }
+
+  section .SeçãoDeBenefícios .elementos h1{
+    color: #797979;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+  }
+
+  section .SeçãoDeBenefícios .elementos p {
+    width: 13rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }  
+
+}
+
+
+
+/*------------- parte responsiva do site 440 --------------*/
+
+@media (max-width: 440px){
+
+  header .titulo {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(165, 42, 42);
+    align-content: center;
+    justify-items: center;
+  }
+
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 10px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 10px;
+  }
+
+  header .img-principal {
+    background-image: url(./img/backegraound-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 5rem;
+  }
+
+  header .img-principal img {
+    margin-top: 1rem;
+    width: 25rem;
+    height: 4rem;
+  }
+
+  header .header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-items: center;
+    align-items: center;
+    margin-right: 15rem;
+  }
+
+  header .header nav ul li {
+    background-color: rgb(6, 6, 104);
+  }
+
+  header .cabeçalho .header .dropdown h1{
+    display: grid;
+    font-family: sans-serif;
+    padding: 5px;
+  }
+
+  header .header nav ul li :hover {
+    transition: all;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  
+
+  /*---------------------------- cards ----------------------*/
+  
+  main section .cards {
+    flex-wrap: wrap;
+  }
+
+/*---------------------------- cards final ----------------------*/
+
+/*---------------------------- terceira parte ----------------------*/
+
+main section .sobreAIgraja .imagem .img_apostolo img{
+  width: 150px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main section .sborejornal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6rem;
+  background-color: rgb(6, 6, 104);
+  width: 100%;
+  padding: 20px 0px;
+}
+
+main section .sborejornal .textosobrejornal h1{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+}
+
+main section .sborejornal .textosobrejornal h2{
+  margin-top: 7px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(255, 196, 0);
+
+}
+
+main section .sborejornal .conteudosobrejornal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+main section .sborejornal .conteudosobrejornal img {
+  width: 340px;
+  height: 385px;
+  background-color: #eaeaea;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main section .sborejornal .conteudosobrejornal p{
+  width: 20rem;
+  font-size: 15px;
+  background-color: #eaeaea;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: justify;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+}
+
+section .SeçãoDeBenefícios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  gap: 3rem;
+}
+
+section .SeçãoDeBenefícios .elementos i{
+  font-size: 8rem;
+  color: #797979;
+}
+
+section .SeçãoDeBenefícios .elementos h1{
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+section .SeçãoDeBenefícios .elementos p {
+  width: 16rem;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+section .SeçãoDeBenefícios .linhavertical {
+  width: 2px;
+  height: 250px;
+  background-color: #797979;
+  display: none;
+}
+
+
+main section .sobreAIgraja .imagem .logodaigreja img{
+  width: 150px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 0px 10px 10px 0px;
+}
+
+main section .sobreAIgraja {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+main section .sobreAIgraja .imagem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px ;
+}
+
+main section .sobreAIgraja .imagem .img_apostolo img{
+  width: 240px;
+  height: 255px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 10px 0px 0px 10px;
+}
+
+main section .sobreAIgraja .textos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main section .sobreAIgraja .textos h1 {
+  color: rgb(3, 9, 116);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+
+main section .sobreAIgraja .textos p {
+  margin-top: 5px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-justify: unset;
+  width: 370px;
+  height: 45rem;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: justify;
+}
+
+
+  .dropdown {
+    width: 50px;
+    margin-right: 20px;
+  }
+
+  .dropdown h1 i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+  }
+
+  .dropdown:hover h1 {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .dropdown:hover li {
+      padding: 8px 15px;
+      border-top: 1px #005cd1 solid;
+      height: auto;
+      overflow: auto;
+      opacity: 1;
+  }
+  
+  .dropdown h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 8px;
+      position: relative;
+      background: #003d8c;
+      width: 50px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: normal;
+      text-align: left;
+      border: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.5s linear 0s;
+  }
+
+  .dropdown h1 b {
+    color: #EEE;
+    font-weight: normal;
+  }
+  
+  .dropdown ul {
+    width: 0px;  
+    display: block;
+    position: absolute;
+    list-style: none;
+  
+  }
+  
+  .dropdown li {
+    padding: 0px 10px;
+    background: #0070ff;
+    color: #ffffff;
+    text-align: left;
+    border: 0px;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition-property: all, background-color;
+    transition-duration: 0.2s, 0.4s;
+  
+  }
+  
+  .dropdown li a { text-decoration:none; color:#fff; }
+  .dropdown li:hover,
+  .dropdown li.selected {
+    background-color: #005fd9;
+  
+  }
+  
+  .dropdown li:last-child {
+    border-radius: 0px 0px 5px 5px;
+  
+  }
+  
+  .dropdown li:nth-child(1) {
+    transition-delay: 0s, 0s;
+  
+  }
+  
+  .dropdown li:nth-child(2) {
+    transition-delay: 0.1s, 0s;
+  
+  }
+  
+  .dropdown li:nth-child(3) {
+    transition-delay: 0.2s, 0s;
+  
+  }
+  
+  .dropdown li:nth-child(4) {
+    transition-delay: 0.3s, 0s;
+  
+  }
+  
+  .dropdown li:nth-child(5) {
+    transition-delay: 0.4s, 0s;
+  
+  }
+
+  main section .textoprodução{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+
+
+  main section .produção .produçãoO_primeiro{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 10px;
+    gap: 14px;
+  }
+
+  main section .produção .produçãoO_primeiro .foto img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+  }
+
+  main section .produção .produçãoO_primeiro .produçãoEnomes h1{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+  }
+  
+  main section .produção .produçãoO_primeiro .produçãoEnomes h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+  }
+
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+
+  footer .footer-direitos h1{
+    font-size: 14px;
+  }
+
+  footer .footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  footer .footer-section .footer-sobrenos, .footer-Contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer .footer-section .footer-sobrenos h1, .footer-Contato h1, .footer-linkrapido h1{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  footer .footer-section .footer-sobrenos p{
+    width: 280px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #002698;
+    font-size: 20px;
+    line-height: 23px;
+  
+  }
+
+  footer .footer-section .footer-linkrapido h3{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #002698;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  footer .footer-section .footer-Contato p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #002698;
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+}
+
+
+/*------------- parte final responsiva do site 440 --------------*/
+
+
+
+/*------------- parte responsiva do site 430 --------------*/
+@media (max-width: 431px){
+  
+  main section .produção .produçãoO_primeiro {
+    display: flex;
+    flex-direction: row;
+    width: 155px;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 10px;
+    gap: 14px;
+  }
+
+}
+
+@media (max-width: 415px) {
+  
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+
+}
+
+@media (max-width: 414px) {
+  
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+/*------------- parte responsiva do site 394 --------------*/
+}
+
+@media (max-width: 394px){
+  header .titulo {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(165, 42, 42);
+    align-content: center;
+    justify-items: center;
+  }
+
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 8px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 8px;
+  }
+
+  main section .sobreAIgraja .imagem .logodaigreja img{
+    width: 140px;
+    height: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  main section .sobreAIgraja .imagem .img_apostolo img{
+    width: 230px;
+    height: 245px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+}
+
+/*------------- parte responsiva do site 393 --------------*/
+
+
+@media (max-width: 393px){
+  header .titulo {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(165, 42, 42);
+    align-content: center;
+    justify-items: center;
+  }
+
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 9px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 9px;
+  }
+
+  main section .sobreAIgraja .imagem .logodaigreja img{
+    width: 140px;
+    height: 240px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  main section .sobreAIgraja .imagem .img_apostolo img{
+    width: 230px;
+    height: 245px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+}
+
+/*------------- parte responsiva do site 390 --------------*/
+@media (max-width: 390px){
+  header .titulo {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(165, 42, 42);
+    align-content: center;
+    justify-items: center;
+  }
+header .img-principal img {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 3rem;
+ }
+
+ footer .linha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1px;
+  width: 100%;
+  background-color: #070707;
+  margin-bottom: 20px;
+}
+
+}
+
+
+
+/*------------- parte responsiva do site 375 --------------*/
+
+@media (max-width: 375px){
+
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  main section .sobreAIgraja .imagem .logodaigreja img{
+    width: 130px;
+    height: 230px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  main section .sobreAIgraja .imagem .img_apostolo img{
+    width: 220px;
+    height: 235px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  main section .sobreAIgraja .textos p {
+    margin-top: 5px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-justify: unset;
+    width: 350px;
+    height: 45rem;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: justify;
+  }
+
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  
+
+}
+
+/*------------- parte responsiva do site 320 --------------*/
+
+@media (max-width: 320px){
+  main section .formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  header .titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 8px;
+  }
+
+  header .titulo h1 strong {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 7px;
+  }
+
+  main section .sborejornal .textosobrejornal h1{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  main section .sborejornal .textosobrejornal h2{
+    margin-top: 7px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(255, 196, 0);
+  }
+
+  main section .sborejornal .conteudosobrejornal img {
+    width: 300px;
+    height: 305px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  main section .sborejornal .conteudosobrejornal p{
+    width: 17.5rem;
+    font-size: 15px;
+    background-color: #eaeaea;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: justify;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+  }
+
+  main section .sobreAIgraja .textos h1 {
+    color: rgb(3, 9, 116);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  main section .sobreAIgraja .textos h1 {
+  color: rgb(3, 9, 116);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+main section .sobreAIgraja .textos p {
+  margin-top: 5px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-justify: unset;
+  width: 290px;
+  height: 54rem;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: justify;
+}
+
+  main section .testosobreaigreja h2{
+    margin-top: 7px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+  }
+  main section .sobreAIgraja .imagem .logodaigreja img{
+    width: 130px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  main section .sobreAIgraja .imagem .img_apostolo img{
+    width: 150px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  
+  footer .linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    background-color: #070707;
+    margin-bottom: 20px;
+  }
+  
+
+  footer .footer-direitos h1{
+    font-size: 12px;
+  }
+
+}
+

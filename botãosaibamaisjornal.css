@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+header .titulo {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(165, 42, 42);
+  align-content: center;
+  justify-items: center;
+}
+
+header .titulo h1 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+header .titulo h1 strong {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 35px;
+}
+
+header .img-principal {
+  background-image: url(./img/backegraound-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 13rem;
+}
+
+header .img-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .img-principal img {
+  margin-top: 1rem;
+  width: 80rem;
+  height: 12rem;
+}
+
+header .cabeçalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(6, 6, 104);
+  width: 100%;
+  height: 35px;
+  align-items: center;
+}
+
+.cabeçalho .redes-socias {
+  margin-left: 10rem;
+}
+
+.cabeçalho .redes-socias a {
+  color: aliceblue;
+  padding: 0px 7px;
+  font-size: 20px;
+}
+
+header .header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  justify-items: center;
+  align-items: center;
+  margin-right: 15rem;
+}
+
+header .cabeçalho .header .dropdown h1{
+  display: none;
+}
+
+header .header nav ul li {
+  background-color: rgb(6, 6, 104);
+  width: 110px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .header nav ul li :hover {
+  transition: all;
+  background-color: rgb(85, 85, 137);
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+header .header nav ul li a {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* ----------------- final do cabeçalho ------------- */
+
+/* ---------------- começo dos cards style -----------*/
+main section .todos-card {
+    display: flex;
+    flex-direction: column;
+  }
+  main section .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+  main section .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 320px;
+    background-color: rgb(6, 6, 104);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    gap: 7px;
+  }
+  
+  main section .card img {
+    width: 180px;
+    height: 230px;
+    background-color: rgb(191, 191, 204);
+  }
+  
+  main section .card h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  
+  main section .card a button {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(254, 194, 0);
+    border-radius: 5px;
+    color: rgb(6, 6, 104);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  /* ---------------- final do card -----------*/
+  main section .tituloanodojjornal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  main section .tituloanodojjornal h1{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+  main section .tituloanodojjornal h2{
+    margin-top: 7px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  footer h1 {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(217, 217, 217);
+    font-size: 20px;
+  }
+  

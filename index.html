@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="format.css">
+    <link rel="stylesheet" href="./style.img.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo jornal.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jornal Igreno dos Céus</title>
+</head>
+<body>
+
+  <!--inicio do cabeçalho-->
+    
+  <header>
+        <div class="titulo">
+            <h1>Uma obra <strong>forte</strong> para abalar o <strong>brasil</strong> e o <strong>mundo</strong>. A igreja reino dos ceus chegou para você!!</h1>
+        </div>
+        
+        <div class="img-principal">
+            <img src="./img/Agrupar 1.png" alt="imagem principal">
+        </div>
+        
+        <div class="cabeçalho">
+        <div class="redes-socias">
+            <a href="https://www.instagram.com/jornaldoreino/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/igrejareinodosceusOFICIAL"><i class="bi bi-facebook"></i></a>
+           <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div> 
+
+        <div class="header">
+            <nav class="dropdown">
+              <h1><i class="icon icon-menu"></i> Menu </h1> 
+                <ul>
+                    <li><a href="./index.html">Jornal</a></li>
+                    <li><a href="./noticias.html">Noticias</a></li>
+                    <li><a href="./colunistas.html">Colunistas</a></li>
+                    <li><a href="https://www.oracaodamadrugada.com.br/">Orações</a></li>
+                    <li><a href="./revista.html">Revistas</a></li>
+               </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+<!--fechamento do cabeçalho-->
+
+
+
+<!-- inicio da imagens em movimento -->
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+    <swiper-slide><img src="./img/banner-de-test2e.png" alt="foto"></swiper-slide>
+  </swiper-container>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+
+    const swiperEl = document.querySelector("swiper-container");
+    swiperEl.addEventListener("autoplaytimeleft", (e) => {
+      const [swiper, time, progress] = e.detail;
+      progressCircle.style.setProperty("--progress", 1 - progress);
+      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    });
+  </script>
+<!-- final da imagens em movimento-->
+  
+
+<!-- o começo dos codigos do cards-->
+<main>
+    <section>
+     
+      
+      <div class="todos-card">
+
+      <div class="cards">
+        
+        <div class="card">
+          <img src="./img/jornal de abril.png" alt="imagem do jornal">
+          <h1> Jornal de Janeiro</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+
+
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de fevereiro</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+        
+        
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de março</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+        
+        
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de abril</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+      </div>
+
+
+      <div class="cards">
+        <div class="card">
+          <img src="./img/jornal de abril.png" alt="imagem do jornal">
+          <h1> Jornal de maio</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+
+
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de junho</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+        
+        
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de julho</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+        
+        
+        <div class="card">
+          <img src="./img/Jornal de março de 2025.png" alt="imagem do jornal">
+          <h1> Jornal de agosto</h1>
+          <a href="https://www.calameo.com/read/007893153f15e5b5fa769?authid=KAOX1iLM97hT"><button>Adquira</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="botãoSaiba">
+      <a href="./botãosaibamaisjornal.html"><button> Conheça mais </button></a>
+    </div>
+</section>
+
+<!-- final dos codigos do cards-->
+
+<!-- inicio sobre o jornal -->
+<section>
+  <div class="sborejornal">
+    <div class="textosobrejornal">
+      <h1>Cocheça nosso jornal</h1>
+      <h2>O que abortamos nos jornais</h2>
+    </div>
+
+    <div class="conteudosobrejornal">
+      <img src="./img/fundo-png.png" alt="imagem">
+      <p>O jornal de março de 2025 traz uma abordagem intensa sobre fé, espiritualidade e 
+        transformação de vidas. Ele apresenta diversos testemunhos de pessoas que afirmam 
+        ter recebido milagres, curas e libertações por meio da fé e da participação em eventos 
+        religiosos promovidos pelo Ministério Reino dos Céus.
+        <br>
+        <br>
+        Um dos principais destaques é a importância da Sexta-Feira da Paixão no Monte Maanaim, 
+        considerado um local sagrado onde multidões se reúnem para buscar cura e restauração. O 
+        jornal narra a experiência de fiéis que visitam a Gruta dos Milagres, levando suas cruzes 
+        de sofrimento e saindo renovados espiritualmente. São apresentados relatos de curas físicas, 
+        como recuperação da visão, libertação de vícios e superação de doenças emocionais como depressão 
+        e ansiedade.
+        <br>
+        <br>
+        Além disso, o jornal destaca a inauguração do Santuário da Lagoa, em Belo Horizonte, conduzida 
+        pelo Apóstolo Adelino de Carvalho e sua equipe. O evento reuniu fiéis de diversas regiões e foi 
+        marcado por momentos de celebração e testemunhos de fé.
+        <br>
+        <br>
+        Outro ponto abordado é a atuação do Ministério Infantil “Turminha da Madrinha”, liderado pela 
+        Bispa Bárbara Barcellos, que tem se dedicado ao ensino religioso para crianças. O jornal destaca 
+        projetos voltados ao público infantil, como festivais de teatro e eventos interativos que promovem 
+        o aprendizado da fé cristã de maneira lúdica e envolvente. O jornal também traz reflexões sobre a 
+        Quaresma, enfatizando a necessidade de jejum, oração e resistência às tentações espirituais. Explica 
+        que esse período é marcado por desafios espirituais, mas também por oportunidades de crescimento e 
+        fortalecimento da fé.
+        <br>
+        <br>
+        Por fim, a publicação destaca a importância do evangelismo e do impacto da Palavra de Deus na 
+        vida das pessoas. Com mensagens inspiradoras, o jornal reforça a crença no poder da fé para transformar 
+        vidas e encoraja os leitores a participarem dos eventos e atos proféticos promovidos pelo ministério.</p>
+    </div>
+  </div>
+</section>
+
+<!-- final sobre o jornal -->
+
+<section>
+  <div class="SeçãoDeBenefícios">
+    
+    <div class="elementos">
+      <i class='bx bxs-dollar-circle'></i>
+      <h1>Escolha seu meio de pagamento</h1>
+      <p>Pague do jeito que preferir! Aceitamos cartões de crédito, PIX. Sua compra é protegida para 
+        garantir uma experiência tranquila e confiável.</p>
+    </div>
+
+    <div class="linhavertical"></div>
+    
+    <div class="elementos">
+      <i class='bx bx-mail-send'></i>
+      <h1>Receba seu jornal agora mesmo</h1>
+      <p>Fique por dentro das notícias em tempo real! Assine e receba seu jornal diretamente no seu 
+        Gmail, de forma rápida, prática e segura..</p>
+    </div>
+
+    <div class="linhavertical"></div>
+    
+    <div class="elementos">
+      <i class='bx bx-store'></i>
+      <h1>Compre em qualquer santuário</h1>
+      <p>Adquira seus jornais com facilidade, onde quer que esteja. 
+        Faça seu pedido e receba com segurança e praticidade!</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- inicio sobre a igreja -->
+
+  <section class="tudosobreaigreja">
+    <div class="testosobreaigreja">
+      <h1>Igreja forte</h1>
+      <h2>Conheça a igreja mais forte do mundo</h2>
+    </div>
+
+    <div class="sobreAIgraja">
+
+      <div class="imagem">
+        <a class="img_apostolo" href=""><img src="img/apostolo-1.jpg" alt="imagem do apostolo"></a>
+        <a class="logodaigreja" href="#"><img src="./img/logo-da-igreja.jpg" alt="icon da igreja"></a>
+      </div>
+      <div class="textos">
+        <h1>Santuário Reino Dos Ceus</h1>
+        <p>O mundo espiritual nos revela a importância de obedecermos às leis 
+          espirituais estabelecidas por Deus. Deus é Espírito, e só aceita que os 
+          homens busquem a Ele em Espirito e em verdade.
+          <br>
+          <br>
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          <br>
+          <br>
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder, 
+          que Deus nos concede através da oração, do conhecimento e da obediência às 
+          suas leis espirituais estabelecidas por Cristo e registradas nas Santas Escrituras.
+          Quando nascemos de novo, passamos a viver espiritualmente, ou seja, no mundo 
+          <br>
+          É somente na dimensão espiritual que conseguimos atingir o domínio do poder,
+          </p>
+      </div>
+    </div>
+    </section>
+    <!-- final sobre a igreja -->
+     
+    
+<!-- inicio sobre Responsavel pela produção-->
+    <section>
+      <div class="textoprodução">
+        <h1>Produção</h1>
+        <h2>Responsavel pela produção</h2>
+      </div>
+        <div class="produção CORRIGIDO">
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img//uuuu.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1> Apostolo Adelino de Carvalho</h1>
+              <h2>Produção</h2>
+            </div>
+          </div>
+          
+          
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img/bispo-rodrigo-80px.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1>Bispo Rodrigo de Carvalho</h1>
+              <h2>Produção</h2>
+            </div>
+          </div>
+
+        </div>
+        
+        
+        <div class="produção">
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img/jailson-80px.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1> Jailson Moreira</h1>
+              <h2>Diagramação</h2>
+            </div>
+          </div>
+          
+          
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img/evelyn-80px.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1>Evelyn alcântara</h1>
+              <h2>Edição</h2>
+            </div>
+          </div>
+
+        </div>
+        
+        
+        <div class="produção">
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img/gilberto-80px.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1>Bispo Gilberto Gomes</h1>
+              <h2>Produção</h2>
+            </div>
+          </div>
+          
+          
+          <div class="produçãoO_primeiro">
+            <div class="foto">
+              <img src="./img/bispa-suzana-80px.png" alt="imagem">
+            </div>
+            <div class="produçãoEnomes">
+              <h1>Bispa Suzana de Paiva</h1>
+              <h2>Produção</h2>
+            </div>
+          </div>
+
+        </div>
+    </section>
+<!-- final sobre Responsavel pela produção-->
+
+<!-- inicio do formulario -->
+    
+    <section>
+      <div class="titulocontato">
+        <h1>Contato</h1>
+        <h2> Entre em contato conosco</h2>
+      </div>
+
+      <div class="formulario">
+          <!-- Make sure you don't change the form action-->
+          <form action="https://api.staticforms.xyz/submit" method="post">
+              <!-- Replace with accesKey sent to your email -->
+              <input type="hidden" name="accessKey" value="f28fd085-34c9-49dc-b065-39033e83214e"> <!-- Codigo enviado no Gmail -->
+              
+              <label>Nome</label>
+              <input type="text" name="name" placeholder="Digita seu nome"autocomplete="off" required> <!-- nome -->
+              
+              <label>Assunto</label>
+              <input type="text" name="subject" placeholder="Digita seu assunto" autocomplete="off" required> <!-- assunto -->
+              
+              <label>Email</label>
+              <input type="text" name="email" placeholder="Digita seu email" required> <!-- Email -->
+              
+              <label>Telefone</label>
+              <input type="text" name="phone" placeholder="(99) 99999-9999" required> <!-- telefone -->
+              
+              <label>Mensagem</label>
+              <textarea name="message" cols="30" rows="10" placeholder="Digita sua menssagem" autocomplete="off" required></textarea> <!-- caixa de menssagem -->
+              
+              <!-- Especifique @ como resposta ao valor se você quiser que seja o e-mail do cliente -->
+              <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+              <!-- Se você deseja que o formulário seja redirecionado para uma URL específica após o envio -->
+              <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html"> <!-- Optional -->
+              
+              <div class="butãoenviar">
+              <button type="submit">enviar</button>
+              </div>
+          </form>
+      </div>
+    </section>
+
+    <!-- final formulario -->
+  
+  </main>
+
+  <footer>
+    <div class="footer-section">
+    <div class="footer-sobrenos">
+      <h1> Sobre nos </h1>
+      <p>O Jornal da Igreja é dedicado a fortalecer a 
+        fé e manter nossa comunidade conectada.</p>
+    </div>
+
+    <div class="footer-linkrapido">
+      <h1>Links Rápidos</h1>
+      <a href="#"><h3>Jornal</h3></a>
+      <a href=""><h3>Noticia</h3></a>
+      <a href=""><h3>Colunista</h3></a>
+      <a href=""><h3>Oração</h3></a>
+      <a href=""><h3>Revista</h3></a>
+    </div>
+
+    <div class="footer-Contato">
+      <h1>Contato</h1>
+      <p>Email: contato@jornaldaigreja.com</p>
+      <p>Telefone: (11) 1234-5678</p>
+    </div>
+    </div>
+
+    <div class="linha"></div>
+
+    <div class="footer-direitos">
+    <h1>© 2025 Jornal Reino dos Céus. todos os direitos reservados</h1>
+    </div>
+
+  </footer>
+
+</body>
+</html>
+
